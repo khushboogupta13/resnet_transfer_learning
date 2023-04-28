@@ -11,9 +11,20 @@ This repository contains the following two python files:
 
 To run the first set of experiments, run the following command in the terminal:
 
-> python3 resnet_comparison_v1.py
+```
+python3 resnet_comparison_v1.py
+```
 
 To run the next set of experiments, run the following command:
 
-> python3 resnet_comparison_v3.py
+```
+python3 resnet_comparison_v3.py
+```
+
+## Results:
+
+The objective of the first set of experiments was to compare the performance of a fine-tuned ResNet-18 model and a ResNet-18 model trained from scratch on the CIFAR-100 dataset. The results show that both models achieved comparable performance, with only a slight difference in accuracy and average loss. The fine-tuned ResNet-18 model had a marginally higher accuracy of 59.51% compared to the ResNet-18 model trained from scratch, which achieved an accuracy of 59.29%.
+
+
+
 
