@@ -2,6 +2,8 @@
 
 This repository contains all code related to experiments conducted for comparing a fine-tuned ResNet-18 model with a ResNEt-18 model trained from scratch.
 
+![resnet](https://github.com/khushboogupta13/resnet_transfer_learning/blob/main/resnet.png)
+
 This repository contains the following two python files:
 1. `resnet_comparison_v1.py` contains the code related to the comparison of performance between a ResNet-50 model trained on the CIFAR-10 dataset, shrunk to a ResNet-18 model, and fine-tuned on the CIFAR-100 dataset and a purely 18-layered ResNet trained on CIFAR-100 for the same number of epochs.
 
